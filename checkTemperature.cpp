@@ -3,10 +3,10 @@ using namespace std;
 
 bool checkTemp(float temperature)
 {
-   bool Result = true;
+   bool Result = false;
    if(temperature < 0 || temperature > 45){
      cout << "Temperature out of range!\n";
-     Result = false;
+     Result = true;
    }
    return Result;
 }
