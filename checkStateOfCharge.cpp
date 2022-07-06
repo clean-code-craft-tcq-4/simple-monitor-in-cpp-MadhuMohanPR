@@ -2,10 +2,10 @@
 using namespace std;
 
 bool checkSOC(float soc){
-   bool Result = true;
+   bool Result = false;
    if(soc < 20 || soc > 80) {
     cout << "State of Charge out of range!\n";
-    Result = false;
+    Result = true;
   }
   return Result;
 }
