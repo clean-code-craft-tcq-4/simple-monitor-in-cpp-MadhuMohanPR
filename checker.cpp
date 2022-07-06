@@ -1,11 +1,11 @@
 #include "checker.h"
-using namespace std;
 
 bool batteryIsOk(float temperature, float soc, float chargeRate) {
-  if(temperature < 0 || temperature > 45) {
-    cout << "Temperature out of range!\n";
-    return false;
-  } else if(soc < 20 || soc > 80) {
+  bool Result = true;
+  Result = checkTemp(temperature);
+  Result = checkSOC(soc);
+  Result = checkTheChargeRate(chargeRate);
+  if(soc < 20 || soc > 80) {
     cout << "State of Charge out of range!\n";
     return false;
   } else if(chargeRate > 0.8) {
