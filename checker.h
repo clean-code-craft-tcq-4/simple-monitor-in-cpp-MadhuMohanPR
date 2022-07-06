@@ -2,6 +2,7 @@
 #define CHECKER_H
 
 #include "checkTemperature.h"
+#include "checkStateOfCharge.h"
 
 bool batteryIsOk(float temperature, float soc, float chargeRate);
 
