@@ -1,4 +1,6 @@
 #include "checkChargeRate.h"
 #include <assert.h>
 
-assert(checkTheChargeRate(0) == true);
+int main() {
+   assert(checkTheChargeRate(0) == true);
+}
