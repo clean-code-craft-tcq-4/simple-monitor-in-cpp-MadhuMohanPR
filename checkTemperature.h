@@ -1,5 +1,5 @@
-#ifndef CHECKER_H
-#define CHECKER_H
+#ifndef CHECKTEMPERATURE_H
+#define CHECKTEMPERATURE_H
 
 bool checkTemp(float temperature);
 
