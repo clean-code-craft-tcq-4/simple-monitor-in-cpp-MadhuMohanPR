@@ -3,6 +3,7 @@
 
 #include "checkTemperature.h"
 #include "checkStateOfCharge.h"
+#include "checkChargeRate.h"
 
 bool batteryIsOk(float temperature, float soc, float chargeRate);
 
