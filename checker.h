@@ -5,6 +5,7 @@
 #include "checkStateOfCharge.h"
 #include "checkChargeRate.h"
 
+bool checkAll(bool tempResult, bool socResult, bool chargerateResult);
 bool batteryIsOk(float temperature, float soc, float chargeRate);
 
 #endif
