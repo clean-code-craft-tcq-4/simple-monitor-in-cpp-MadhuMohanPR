@@ -1,4 +1,4 @@
-#include "Testchecker.h"
+#include "checker.h"
 using namespace std;
 
 bool batteryIsOk(float temperature, float soc, float chargeRate) {
@@ -13,8 +13,4 @@ bool batteryIsOk(float temperature, float soc, float chargeRate) {
     return false;
   }
   return true;
-}
-
-int main() {
-   runtests();
 }
