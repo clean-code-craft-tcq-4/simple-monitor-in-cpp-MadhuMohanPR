@@ -5,6 +5,7 @@ bool checkAll(bool tempResult, bool socResult, bool chargerateResult) {
   if (tempResult || socResult || chargerateResult){
     Result = false;
   }
+  return Result;
 }
 bool batteryIsOk(float temperature, float soc, float chargeRate) {
   bool Result = true;
