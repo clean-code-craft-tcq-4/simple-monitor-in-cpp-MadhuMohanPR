@@ -3,7 +3,7 @@ using namespace std;
 
 bool checkSOC(float soc){
    bool Result = false;
-   if(soc < 20 || soc > 80) {
+   if(soc < LOWER_CHARGE_LIMIT || soc > UPPER_CHARGE_LIMIT) {
     cout << "State of Charge out of range!\n";
     Result = true;
   }
