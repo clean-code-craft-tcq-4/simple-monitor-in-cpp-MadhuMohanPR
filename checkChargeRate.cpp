@@ -3,7 +3,7 @@ using namespace std;
 
 bool checkTheChargeRate(float chargeRate){
   bool Result = false;
-  if(chargeRate > 0.8) {
+  if(chargeRate > THRESHOLD_CHARGE_RATE) {
     cout << "Charge Rate out of range!\n";
     Result = true;
   }
