@@ -1,6 +1,6 @@
 #include "checker.hpp"
 
-static inline bool isLessThanOrEqualLimit(float value, float limit)
+bool isLessThanOrEqualLimit(float value, float limit)
 {
    bool result = ((value <= limit)?(true):(false));
    if (!result)
